@@ -24,11 +24,18 @@
   </head>
   <body>
     <main class="card">
-      <img
-        src="./images/image-product-mobile.jpg"
-        alt="perfume with a white background and leaves"
-        class="perfume-img"
-      />
+      <picture>
+        <source
+          media="(min-width: 768px)"
+          srcset="./images/image-product-desktop.jpg"
+        />
+        <img
+          src="./images/image-product-mobile.jpg"
+          alt="perfume with a white background and leaves"
+          class="perfume-img"
+        />
+      </picture>
+
       <article>
         <div class="content">
           <section class="title">

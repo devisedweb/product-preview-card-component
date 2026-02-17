@@ -19,6 +19,10 @@ body {
   background-color: white;
 }
 
+picture {
+  display: block;
+}
+
 .perfume-img {
   width: 100%;
   height: 21.375rem;
@@ -119,6 +123,7 @@ button {
   }
 
   .perfume-img {
+    display: block;
     width: 300px;
     height: auto;
     object-fit: cover;
