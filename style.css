@@ -15,7 +15,8 @@ body {
 
 /* Card Styles */
 .card {
-  width: 21.3rem;
+  max-width: 21.3rem;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   background-color: white;
@@ -129,7 +130,8 @@ button {
 
 @media only screen and (min-width: 768px) {
   .card {
-    width: 37.5rem;
+    max-width: 37.5rem;
+    width: 100%;
     height: auto;
     display: flex;
   }
