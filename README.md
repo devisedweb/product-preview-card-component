@@ -1,4 +1,4 @@
-# Frontend Mentor - Product preview card component
+# Day 11 of 100DaysOfCode - Frontend Mentor - Product preview card component
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
