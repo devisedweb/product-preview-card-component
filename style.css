@@ -33,13 +33,13 @@ picture {
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.25rem;
 }
 
 .title {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .category {
@@ -128,6 +128,14 @@ button {
     height: auto;
     object-fit: cover;
     border-radius: 8px 0 0 8px;
+  }
+
+  .content {
+    gap: 1.812rem;
+  }
+
+  .title {
+    gap: 1.5rem;
   }
 }
 
